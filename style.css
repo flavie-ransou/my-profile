@@ -1,0 +1,122 @@
+h1 {
+	color: #c8ab92;
+	font-size: 30px;
+	letter-spacing: 5px;
+	font-family: borna,sans-serif;
+}
+body{
+	font-family: Calibri;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: whitesmoke;
+	font-weight:lighter;
+	text-align: center;
+}
+
+h4{
+	letter-spacing: 5px;
+	font-size: 30px;
+	display:flex;
+}
+
+
+
+h1,h2,h3{
+	color: white;
+	text-align: center
+}
+.container{
+	width: 700px;
+    margin: 40px auto;
+}
+.card-white{
+	background-color: rgba(34, 41, 39, .55);
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.8);
+    margin: 20px 0px;
+    transition: .7s;
+    backdrop-filter: blur(10px);
+}
+.card-white:hover{
+	box-shadow: 0 10px 30px rgba( 80,80, 80, .7);
+}
+.img-circle{
+	display: block;
+	width: 30%;
+  	margin: auto;
+  	border-radius: 50%;
+}
+.logo{
+	display: inline;
+	padding: 10px;
+	color: rgb(230,230,230);
+	margin: auto;
+	font-size: 50px;
+	transition: .5s;
+}
+.logo:hover{
+	-ms-transform:scale (1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.btn-purple{
+	background-color: #89786C;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: .3s;
+}
+.btn-purple:hover{
+	background-color: #AB9E95;
+	padding: 17px 22px;
+}
+.list-inline{
+	color: white;
+	list-style: none;
+	padding: 0px;
+}
+#introduction p{
+	margin-bottom: 35px;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.background{
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	z-index: -1;
+	background-image: url("images/Randonnée-cantal.jpg");
+}
+
+
+/*
+-ms-transform:scale (1.02);
+	-webkit-transform: scale(1.02);
+	transform: scale(1.02);
+	=> pour augmenter la taille quand hover
+display:flex => horizontal
+align-items:center => centrer verticalement
+justify-content => centrer horizontalement = text-align mais pour les logos, objets
+	*/
